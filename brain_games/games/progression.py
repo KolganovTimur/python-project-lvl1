@@ -11,7 +11,7 @@ def start():
         num = random.randint(0, 15)
         k = random.randint(2, 6)
         length = 10
-        index = random.randint(1, length - 1)
+        index = random.randint(0, length - 1)
         correct_answer = ''
         print('Question: {} '.format(num), end='')
         for x in range(length):
