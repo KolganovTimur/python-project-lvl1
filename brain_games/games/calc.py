@@ -1,18 +1,27 @@
+import random
+
 import prompt
 from random import randint as rand
 
 
-def test_1():
+def start():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    count = 0
-    while count < 3:
-        number = rand(0, 50)
-        print('Question: {}'.format(number))
+    print('What is the result of the expression?')
+    for count in range(3):
+        num1 = random.randint(0, 50)
+        num2 = random.randint(0, 50)
+        operator = random.choice('+-*')
+        print('Question: {} {} {}'.format(num1, operator, num2))
         answer = prompt.string('Your answer: ')
-        correct_answer = 'yes' if number % 2 == 0 else 'no'
+        correct_answer = ''
+        if operator == '+':
+            correct_answer = str(num1 + num2)
+        elif operator == '-':
+            correct_answer = str(num1 - num2)
+        elif operator == '*':
+            correct_answer = str(num1 * num2)
         if answer == correct_answer:
             print('Correct!')
         else:
@@ -20,5 +29,4 @@ def test_1():
             print('Correct answer is \'{}\'.'.format(correct_answer))
             print('Let\'s try again, {}!'.format(name))
             return
-        count += 1
     print('Congratulations, {}!'.format(name))

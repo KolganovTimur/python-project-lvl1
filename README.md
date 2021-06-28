@@ -1,4 +1,8 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/KolganovTimur/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/KolganovTimur/python-project-lvl1/actions)
-### asciinema
+### brain-even
 https://asciinema.org/a/EXqufw7P4XlbKVPKPCaDnR0Zm
+
+### brain-calc
+https://asciinema.org/a/aflQAUhz0Hj1RHRI7VlSMz2kD
+
