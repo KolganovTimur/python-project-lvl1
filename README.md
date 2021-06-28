@@ -8,3 +8,6 @@ https://asciinema.org/a/aflQAUhz0Hj1RHRI7VlSMz2kD
 
 ### brain-gcd
 https://asciinema.org/a/nxDSM91bk65sZGY3TB0Ormrwf
+
+### brain-progression
+https://asciinema.org/a/EwtB1K5PO2OrLQc7K73jzYjwg

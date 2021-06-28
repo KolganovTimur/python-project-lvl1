@@ -19,7 +19,6 @@ def start():
         print('Question: {} {}'.format(a, b))
         answer = prompt.string('Your answer: ')
         correct_answer = nod(a, b)
-        print(correct_answer)
         if answer == correct_answer:
             print('Correct!')
         else:
