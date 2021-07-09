@@ -1,29 +1,21 @@
-import random
-import prompt
+from random import randint as rand
+from brain_games.engine.engine import base
 
 
 def nod(a, b):
     while b > 0:
         a, b = b, a % b
-    return str(a)
+    return a
+
+
+def generating_question_and_answer():
+    num1 = rand(0, 50)
+    num2 = rand(0, 50)
+    question = 'Question: {} {}'.format(num1, num2)
+    correct_answer = str(nod(num1, num2))
+    return question, correct_answer
 
 
 def start():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}!'.format(name))
-    print('Find the greatest common divisor of given numbers.')
-    for count in range(3):
-        a = random.randint(0, 50)
-        b = random.randint(0, 50)
-        print('Question: {} {}'.format(a, b))
-        answer = prompt.string('Your answer: ')
-        correct_answer = nod(a, b)
-        if answer == correct_answer:
-            print('Correct!')
-        else:
-            print('\'{}\' is wrong answer ;(. '.format(answer), end='')
-            print('Correct answer is \'{}\'.'.format(correct_answer))
-            print('Let\'s try again, {}!'.format(name))
-            return
-    print('Congratulations, {}!'.format(name))
+    description = 'Find the greatest common divisor of given numbers.'
+    base(description, generating_question_and_answer)

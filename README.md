@@ -1,17 +1,18 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/KolganovTimur/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/KolganovTimur/python-project-lvl1/actions)
+
+
 ### brain-even
-https://asciinema.org/a/EXqufw7P4XlbKVPKPCaDnR0Zm
+[![asciicast](https://asciinema.org/a/BNgC4Ei4Za3w9loCZF31VZ6oi.svg)](https://asciinema.org/a/BNgC4Ei4Za3w9loCZF31VZ6oi)
 
 ### brain-calc
-https://asciinema.org/a/aflQAUhz0Hj1RHRI7VlSMz2kD
+[![asciicast](https://asciinema.org/a/2PXEpyfkpnhmSooBF4yhh8Oc0.svg)](https://asciinema.org/a/2PXEpyfkpnhmSooBF4yhh8Oc0)
 
 ### brain-gcd
-https://asciinema.org/a/nxDSM91bk65sZGY3TB0Ormrwf
+[![asciicast](https://asciinema.org/a/AxP1IcHfYzjsX8ihqQzRBENfy.svg)](https://asciinema.org/a/AxP1IcHfYzjsX8ihqQzRBENfy)
 
 ### brain-progression
-https://asciinema.org/a/EwtB1K5PO2OrLQc7K73jzYjwg
+[![asciicast](https://asciinema.org/a/buUgVPJxcPUzktFZWqvSSHO6y.svg)](https://asciinema.org/a/buUgVPJxcPUzktFZWqvSSHO6y)
 
 ### brain-prime
- https://asciinema.org/a/0buMTULFam3yCQKys3EkVXOsB
-
+[![asciicast](https://asciinema.org/a/kRf8J2brfJUeqDMO1340EU5KI.svg)](https://asciinema.org/a/kRf8J2brfJUeqDMO1340EU5KI)

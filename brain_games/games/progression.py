@@ -1,32 +1,24 @@
-import random
-import prompt
+from random import randint as rand
+from brain_games.engine.engine import base
+
+
+def generating_question_and_answer():
+    num = rand(0, 20)
+    step = rand(2, 9)
+    len = 10
+    index = rand(0, len - 1)
+    question = ''
+    correct_answer = ''
+    for x in range(len):
+        if x == index:
+            correct_answer = '{}'.format(num)
+            question += '.. '
+        else:
+            question += '{} '.format(num)
+        num += step
+    return question, correct_answer
 
 
 def start():
-    print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print('Hello, {}!'.format(name))
-    print('What number is missing in the progression?')
-    for count in range(3):
-        num = random.randint(0, 15)
-        k = random.randint(2, 6)
-        length = 10
-        index = random.randint(0, length - 1)
-        correct_answer = ''
-        print('Question: {} '.format(num), end='')
-        for x in range(length):
-            num += k
-            if x == index:
-                correct_answer = str(num)
-                print('.. ', end='')
-            else:
-                print('{} '.format(num), end='')
-        answer = prompt.string('\nYour answer: ')
-        if answer == correct_answer:
-            print('Correct!')
-        else:
-            print('\'{}\' is wrong answer ;(. '.format(answer), end='')
-            print('Correct answer is \'{}\'.'.format(correct_answer))
-            print('Let\'s try again, {}!'.format(name))
-            return
-    print('Congratulations, {}!'.format(name))
+    description = 'What number is missing in the progression?'
+    base(description, generating_question_and_answer)
