@@ -7,7 +7,7 @@ def generating_question_and_answer():
     step = rand(2, 9)
     len = 10
     index = rand(0, len - 1)
-    question = ''
+    question = 'Question: '
     correct_answer = ''
     for x in range(len):
         if x == index:
