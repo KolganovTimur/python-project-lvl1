@@ -1,5 +1,4 @@
 from random import randint as rand
-from brain_games.engine.engine import base
 
 
 def is_even(num):
@@ -15,6 +14,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-def start():
-    description = 'Answer "yes" if the number is even, otherwise answer "no".'
-    base(description, generating_question_and_answer)
+description = 'Answer "yes" if the number is even, otherwise answer "no".'

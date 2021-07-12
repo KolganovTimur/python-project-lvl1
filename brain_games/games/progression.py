@@ -1,5 +1,4 @@
 from random import randint as rand
-from brain_games.engine.engine import base
 
 
 def generating_question_and_answer():
@@ -19,6 +18,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-def start():
-    description = 'What number is missing in the progression?'
-    base(description, generating_question_and_answer)
+description = 'What number is missing in the progression?'

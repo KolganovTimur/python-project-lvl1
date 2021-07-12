@@ -1,6 +1,5 @@
 from random import randint as rand
 from random import choice
-from brain_games.engine.engine import base
 
 
 def operation(num1, num2, operator):
@@ -21,6 +20,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-def start():
-    description = 'What is the result of the expression?'
-    base(description, generating_question_and_answer)
+description = 'What is the result of the expression?'

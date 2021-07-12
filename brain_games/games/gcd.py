@@ -1,5 +1,4 @@
 from random import randint as rand
-from brain_games.engine.engine import base
 
 
 def nod(a, b):
@@ -16,6 +15,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-def start():
-    description = 'Find the greatest common divisor of given numbers.'
-    base(description, generating_question_and_answer)
+description = 'Find the greatest common divisor of given numbers.'
