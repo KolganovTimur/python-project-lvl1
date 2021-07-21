@@ -15,4 +15,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-description = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'

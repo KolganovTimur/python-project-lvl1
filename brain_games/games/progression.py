@@ -18,4 +18,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-description = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'

@@ -20,4 +20,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'

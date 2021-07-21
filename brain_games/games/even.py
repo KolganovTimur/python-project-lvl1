@@ -14,4 +14,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'

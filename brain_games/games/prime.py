@@ -15,4 +15,4 @@ def generating_question_and_answer():
     return question, correct_answer
 
 
-description = 'Answer "yes" if given number is prime. Otherwise answer "no"'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no"'

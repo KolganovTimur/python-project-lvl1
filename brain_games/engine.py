@@ -5,7 +5,7 @@ from brain_games.cli import welcome_user
 def base(game):
     name = welcome_user()
     print(name)
-    print(game.description)
+    print(game.DESCRIPTION)
     total_steps = 3
     count = 0
     while count < total_steps:
